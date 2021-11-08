@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Collections;
-using System.Management;
 
 namespace ITools
 {
@@ -9,17 +8,17 @@ namespace ITools
     {
         private ArrayList GetInformation(string qry)
         {
-            ManagementObjectSearcher searcher;
+            System.Management.ManagementObjectSearcher searcher;
             int i = 0;
             ArrayList arrayListInformationCollactor = new ArrayList();
             try
             {
-                searcher = new ManagementObjectSearcher("SELECT * FROM " + qry);
-                foreach (ManagementObject mo in searcher.Get())
+                searcher = new System.Management.ManagementObjectSearcher("SELECT * FROM " + qry);
+                foreach (System.Management.ManagementObject mo in searcher.Get())
                 {
                     i++;
-                    PropertyDataCollection searcherProperties = mo.Properties;
-                    foreach (PropertyData sp in searcherProperties)
+                    System.Management.PropertyDataCollection searcherProperties = mo.Properties;
+                    foreach (System.Management.PropertyData sp in searcherProperties)
                     {
                         arrayListInformationCollactor.Add(sp);
                     }

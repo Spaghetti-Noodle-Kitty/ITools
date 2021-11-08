@@ -79,5 +79,12 @@ namespace ITools
             Services serv = new Services();
             serv.Show();
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            // Get Hyper-V VMs
+            Hyper_VVMs hvms = new Hyper_VVMs();
+            hvms.Show();
+        }
     }
 }

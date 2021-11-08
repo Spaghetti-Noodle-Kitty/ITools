@@ -231,8 +231,9 @@ namespace ITools
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(125, 31);
             this.button14.TabIndex = 2;
-            this.button14.Text = "button14";
+            this.button14.Text = "Get Hyper-V VMs";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
