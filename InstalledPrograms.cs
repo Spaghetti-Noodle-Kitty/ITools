@@ -33,5 +33,10 @@ namespace ITools
             if (sfd.ShowDialog() == DialogResult.OK)
                 File.WriteAllText(sfd.FileName, textBox1.Text);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -55,7 +55,7 @@ namespace ITools
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button1.Location = new System.Drawing.Point(52, 47);
+            this.button1.Location = new System.Drawing.Point(61, 47);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 31);
             this.button1.TabIndex = 0;
@@ -68,7 +68,7 @@ namespace ITools
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button2.Location = new System.Drawing.Point(52, 98);
+            this.button2.Location = new System.Drawing.Point(61, 98);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 31);
             this.button2.TabIndex = 1;
@@ -81,7 +81,7 @@ namespace ITools
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button3.Location = new System.Drawing.Point(52, 153);
+            this.button3.Location = new System.Drawing.Point(61, 153);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(125, 31);
             this.button3.TabIndex = 2;
@@ -94,7 +94,7 @@ namespace ITools
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button4.Location = new System.Drawing.Point(52, 209);
+            this.button4.Location = new System.Drawing.Point(61, 209);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(125, 31);
             this.button4.TabIndex = 3;
@@ -135,7 +135,7 @@ namespace ITools
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button7.Location = new System.Drawing.Point(52, 47);
+            this.button7.Location = new System.Drawing.Point(61, 47);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(125, 31);
             this.button7.TabIndex = 0;
@@ -148,7 +148,7 @@ namespace ITools
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button8.Location = new System.Drawing.Point(52, 98);
+            this.button8.Location = new System.Drawing.Point(61, 98);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(125, 31);
             this.button8.TabIndex = 1;
@@ -161,11 +161,11 @@ namespace ITools
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button9.Location = new System.Drawing.Point(52, 153);
+            this.button9.Location = new System.Drawing.Point(61, 153);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(125, 31);
             this.button9.TabIndex = 2;
-            this.button9.Text = "COM Ports";
+            this.button9.Text = "Get COM Ports";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -174,7 +174,7 @@ namespace ITools
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button10.Location = new System.Drawing.Point(52, 209);
+            this.button10.Location = new System.Drawing.Point(61, 209);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(125, 31);
             this.button10.TabIndex = 3;
@@ -201,7 +201,7 @@ namespace ITools
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button12.Location = new System.Drawing.Point(52, 47);
+            this.button12.Location = new System.Drawing.Point(62, 47);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(125, 31);
             this.button12.TabIndex = 0;
@@ -214,19 +214,20 @@ namespace ITools
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button13.Location = new System.Drawing.Point(52, 98);
+            this.button13.Location = new System.Drawing.Point(62, 98);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(125, 31);
             this.button13.TabIndex = 1;
-            this.button13.Text = "button13";
+            this.button13.Text = "Get Service Status";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button14.Location = new System.Drawing.Point(52, 153);
+            this.button14.Location = new System.Drawing.Point(62, 153);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(125, 31);
             this.button14.TabIndex = 2;
@@ -238,7 +239,7 @@ namespace ITools
             this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button15.Location = new System.Drawing.Point(52, 209);
+            this.button15.Location = new System.Drawing.Point(62, 209);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(125, 31);
             this.button15.TabIndex = 3;

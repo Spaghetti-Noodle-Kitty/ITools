@@ -72,5 +72,12 @@ namespace ITools
             InstalledPrograms InsProg = new InstalledPrograms();
             InsProg.Show();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            // Get Service status
+            Services serv = new Services();
+            serv.Show();
+        }
     }
 }
