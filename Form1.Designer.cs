@@ -128,7 +128,7 @@ namespace ITools
             this.groupBox2.Size = new System.Drawing.Size(247, 289);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Hardware";
+            this.groupBox2.Text = "Hardware / Information";
             // 
             // button7
             // 
@@ -152,7 +152,7 @@ namespace ITools
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(125, 31);
             this.button8.TabIndex = 1;
-            this.button8.Text = "Get System Specs";
+            this.button8.Text = "Get System Info";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -205,8 +205,9 @@ namespace ITools
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(125, 31);
             this.button12.TabIndex = 0;
-            this.button12.Text = "button12";
+            this.button12.Text = "Get Installed Programs";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 

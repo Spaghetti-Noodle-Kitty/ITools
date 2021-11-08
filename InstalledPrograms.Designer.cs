@@ -1,7 +1,7 @@
 ﻿
 namespace ITools
 {
-    partial class NIC
+    partial class InstalledPrograms
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@ namespace ITools
             this.button1.Location = new System.Drawing.Point(13, 415);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(775, 23);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 7;
             this.button1.Text = "Save Output";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -57,10 +57,9 @@ namespace ITools
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(775, 395);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TabIndex = 6;
             // 
-            // NIC
+            // InstalledPrograms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,8 +67,8 @@ namespace ITools
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Name = "NIC";
-            this.Text = "NIC";
+            this.Name = "InstalledPrograms";
+            this.Text = "InstalledPrograms";
             this.ResumeLayout(false);
             this.PerformLayout();
 

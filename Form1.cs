@@ -48,6 +48,8 @@ namespace ITools
         private void button8_Click(object sender, EventArgs e)
         {
             // Get specs
+            Specs spc = new Specs();
+            spc.Show();
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -62,6 +64,13 @@ namespace ITools
             // Get COM Ports
             OpenCOM oc = new OpenCOM();
             oc.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            // Get all installed Programs
+            InstalledPrograms InsProg = new InstalledPrograms();
+            InsProg.Show();
         }
     }
 }
