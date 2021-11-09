@@ -43,4 +43,5 @@
 >   * Gets information about your local VMs on HyperV by using powershell
 > * Get Environment Vars
 >   * Reads all set environment variables
+>   
 > Most of these Options have the possibility to export their Output by pressing the [Save Output] button
