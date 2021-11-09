@@ -43,7 +43,6 @@ namespace ITools
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -187,7 +186,6 @@ namespace ITools
             this.groupBox3.Controls.Add(this.button12);
             this.groupBox3.Controls.Add(this.button13);
             this.groupBox3.Controls.Add(this.button14);
-            this.groupBox3.Controls.Add(this.button15);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.groupBox3.Location = new System.Drawing.Point(561, 12);
             this.groupBox3.Name = "groupBox3";
@@ -235,18 +233,6 @@ namespace ITools
             this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button15.Location = new System.Drawing.Point(62, 209);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(125, 31);
-            this.button15.TabIndex = 3;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -293,7 +279,6 @@ namespace ITools
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Label label1;
     }
 }
