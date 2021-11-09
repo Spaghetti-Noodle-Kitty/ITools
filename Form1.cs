@@ -91,5 +91,11 @@ namespace ITools
         {
             // WIP
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ENVVars env = new ENVVars();
+            env.Show();
+        }
     }
 }

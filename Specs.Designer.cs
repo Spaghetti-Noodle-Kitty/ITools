@@ -55,7 +55,6 @@ namespace ITools
             "Win32_DiskDrive",
             "Win32_OperatingSystem",
             "Win32_Processor",
-            "Win32_ProgramGroup",
             "Win32_SystemDevices",
             "Win32_StartupCommand"});
             this.comboBox1.Location = new System.Drawing.Point(13, 12);
